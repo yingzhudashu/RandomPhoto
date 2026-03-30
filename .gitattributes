@@ -1,0 +1,13 @@
+﻿# 使用本地换行符，但声明 UTF-8 编码
+* text=auto working-tree-encoding=UTF-8
+
+# Markdown 文件
+*.md text working-tree-encoding=UTF-8
+
+# 源代码文件
+*.kt text working-tree-encoding=UTF-8
+*.kts text working-tree-encoding=UTF-8
+
+# 配置文件
+*.properties text working-tree-encoding=UTF-8
+*.xml text working-tree-encoding=UTF-8
