@@ -1,4 +1,4 @@
-﻿# 馃摫 闅忔満鐓х墖 (Random Photo)
+# 馃摫 闅忔満鐓х墖 (Random Photo)
 
 涓€涓畝娲佸疄鐢ㄧ殑 Android 搴旂敤锛屼粠鐩稿唽涓殢鏈哄睍绀虹収鐗囷紝甯︽潵鎯婂枩鐨勫洖蹇嗕綋楠屻€?
 [![Platform](https://img.shields.io/badge/platform-Android-blue.svg)](https://developer.android.com/)
