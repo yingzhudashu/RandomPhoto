@@ -1,56 +1,48 @@
-# ⚡ 快速启动
-
-## 3 步运行应用
-
-### 步骤 1: 打开 Android Studio
+﻿# 鈿?蹇€熷惎鍔?
+## 3 姝ヨ繍琛屽簲鐢?
+### 姝ラ 1: 鎵撳紑 Android Studio
 ```
-启动 Android Studio
-File → Open → 选择 RandomPhotoApp 文件夹
-```
+鍚姩 Android Studio
+File 鈫?Open 鈫?閫夋嫨 RandomPhotoApp 鏂囦欢澶?```
 
-### 步骤 2: 等待同步
+### 姝ラ 2: 绛夊緟鍚屾
 ```
-等待 Gradle 同步完成（首次约 2-5 分钟）
-查看底部状态栏 "Gradle sync finished"
+绛夊緟 Gradle 鍚屾瀹屾垚锛堥娆＄害 2-5 鍒嗛挓锛?鏌ョ湅搴曢儴鐘舵€佹爮 "Gradle sync finished"
 ```
 
-### 步骤 3: 运行
+### 姝ラ 3: 杩愯
 ```
-连接手机或启动模拟器
-点击 ▶️ Run 按钮
+杩炴帴鎵嬫満鎴栧惎鍔ㄦā鎷熷櫒
+鐐瑰嚮 鈻讹笍 Run 鎸夐挳
 ```
 
-## 项目位置
+## 椤圭洰浣嶇疆
 
 ```
 C:\Users\16785\.openclaw\workspace\RandomPhotoApp\
 ```
 
-## 文件统计
+## 鏂囦欢缁熻
 
-- **总文件数**: 28 个
-- **代码大小**: 82 KB
-- **Kotlin 文件**: 8 个
-- **文档文件**: 5 个
+- **鎬绘枃浠舵暟**: 28 涓?- **浠ｇ爜澶у皬**: 82 KB
+- **Kotlin 鏂囦欢**: 8 涓?- **鏂囨。鏂囦欢**: 5 涓?
+## 鏍稿績鏂囨。
 
-## 核心文档
-
-| 文档 | 说明 |
+| 鏂囨。 | 璇存槑 |
 |------|------|
-| [README.md](README.md) | 项目总览 |
-| [INSTALL.md](INSTALL.md) | 安装指南 |
-| [USER_GUIDE.md](USER_GUIDE.md) | 使用教程 |
-| [PERMISSIONS.md](PERMISSIONS.md) | 权限说明 |
-| [DELIVERY_REPORT.md](DELIVERY_REPORT.md) | 交付报告 |
+| [README.md](README.md) | 椤圭洰鎬昏 |
+| [INSTALL.md](INSTALL.md) | 瀹夎鎸囧崡 |
+| [USER_GUIDE.md](USER_GUIDE.md) | 浣跨敤鏁欑▼ |
+| [PERMISSIONS.md](PERMISSIONS.md) | 鏉冮檺璇存槑 |
+| [DELIVERY_REPORT.md](DELIVERY_REPORT.md) | 浜や粯鎶ュ憡 |
 
-## 遇到问题？
+## 閬囧埌闂锛?
+1. **Gradle 鍚屾澶辫触** 鈫?妫€鏌ョ綉缁滆繛鎺ワ紝閲嶈瘯
+2. **SDK 鏈壘鍒?* 鈫?File 鈫?Project Structure 鈫?鎸囧畾 SDK 璺緞
+3. **璁惧鏈瘑鍒?* 鈫?adb kill-server && adb start-server
 
-1. **Gradle 同步失败** → 检查网络连接，重试
-2. **SDK 未找到** → File → Project Structure → 指定 SDK 路径
-3. **设备未识别** → adb kill-server && adb start-server
-
-详细故障排除请查看 [INSTALL.md](INSTALL.md)
+璇︾粏鏁呴殰鎺掗櫎璇锋煡鐪?[INSTALL.md](INSTALL.md)
 
 ---
 
-**开始编码吧！** 🚀
+**寮€濮嬬紪鐮佸惂锛?* 馃殌

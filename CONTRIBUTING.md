@@ -1,101 +1,85 @@
-# 贡献指南
+﻿# 璐＄尞鎸囧崡
 
-感谢你考虑为 RandomPhoto 项目做出贡献！🎉
+鎰熻阿浣犺€冭檻涓?RandomPhoto 椤圭洰鍋氬嚭璐＄尞锛侌煄?
+## 馃搵 鐩綍
 
-## 📋 目录
+- [琛屼负鍑嗗垯](#琛屼负鍑嗗垯)
+- [濡備綍璐＄尞](#濡備綍璐＄尞)
+- [寮€鍙戠幆澧冭缃甝(#寮€鍙戠幆澧冭缃?
+- [鎻愪氦瑙勮寖](#鎻愪氦瑙勮寖)
+- [浠ｇ爜瀹℃煡](#浠ｇ爜瀹℃煡)
+- [璁稿彲璇乚(#璁稿彲璇?
 
-- [行为准则](#行为准则)
-- [如何贡献](#如何贡献)
-- [开发环境设置](#开发环境设置)
-- [提交规范](#提交规范)
-- [代码审查](#代码审查)
-- [许可证](#许可证)
+## 琛屼负鍑嗗垯
 
-## 行为准则
+鏈」鐩噰鐢?[璐＄尞鑰呭叕绾(https://www.contributor-covenant.org/) 琛屼负鍑嗗垯銆傝灏婇噸鎵€鏈夎础鐚€呭拰鐢ㄦ埛銆?
+## 濡備綍璐＄尞
 
-本项目采用 [贡献者公约](https://www.contributor-covenant.org/) 行为准则。请尊重所有贡献者和用户。
+### 鎶ュ憡 Bug
 
-## 如何贡献
+1. 鏌ョ湅 [Issues](https://github.com/YOUR_USERNAME/RandomPhoto/issues) 鏄惁宸叉湁鐩稿悓闂
+2. 濡傛灉娌℃湁锛屽垱寤烘柊 Issue 骞跺寘鍚細
+   - 闂鎻忚堪
+   - 澶嶇幇姝ラ
+   - 棰勬湡琛屼负
+   - 瀹為檯琛屼负
+   - 鎴浘锛堝閫傜敤锛?   - 璁惧淇℃伅锛圓ndroid 鐗堟湰銆佽澶囧瀷鍙凤級
 
-### 报告 Bug
+### 鎻愬嚭鏂板姛鑳?
+1. 鏌ョ湅 [Issues](https://github.com/YOUR_USERNAME/RandomPhoto/issues) 鏄惁宸叉湁鐩稿悓寤鸿
+2. 鍒涘缓 Feature Request Issue 骞惰鏄庯細
+   - 鍔熻兘鎻忚堪
+   - 浣跨敤鍦烘櫙
+   - 棰勬湡鏁堟灉
+   - 鍙兘鐨勫疄鐜版柟妗?
+### 鎻愪氦浠ｇ爜
 
-1. 查看 [Issues](https://github.com/YOUR_USERNAME/RandomPhoto/issues) 是否已有相同问题
-2. 如果没有，创建新 Issue 并包含：
-   - 问题描述
-   - 复现步骤
-   - 预期行为
-   - 实际行为
-   - 截图（如适用）
-   - 设备信息（Android 版本、设备型号）
+#### 1. Fork 浠撳簱
 
-### 提出新功能
+鐐瑰嚮 GitHub 椤甸潰鍙充笂瑙掔殑 "Fork" 鎸夐挳
 
-1. 查看 [Issues](https://github.com/YOUR_USERNAME/RandomPhoto/issues) 是否已有相同建议
-2. 创建 Feature Request Issue 并说明：
-   - 功能描述
-   - 使用场景
-   - 预期效果
-   - 可能的实现方案
-
-### 提交代码
-
-#### 1. Fork 仓库
-
-点击 GitHub 页面右上角的 "Fork" 按钮
-
-#### 2. 克隆仓库
+#### 2. 鍏嬮殕浠撳簱
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/RandomPhoto.git
 cd RandomPhoto
 ```
 
-#### 3. 创建分支
+#### 3. 鍒涘缓鍒嗘敮
 
 ```bash
 git checkout -b feature/amazing-feature
 ```
 
-分支命名规范：
-- `feature/xxx` - 新功能
-- `fix/xxx` - Bug 修复
-- `docs/xxx` - 文档更新
-- `style/xxx` - 代码格式化
-- `refactor/xxx` - 代码重构
-- `test/xxx` - 测试相关
-- `chore/xxx` - 构建/工具相关
+鍒嗘敮鍛藉悕瑙勮寖锛?- `feature/xxx` - 鏂板姛鑳?- `fix/xxx` - Bug 淇
+- `docs/xxx` - 鏂囨。鏇存柊
+- `style/xxx` - 浠ｇ爜鏍煎紡鍖?- `refactor/xxx` - 浠ｇ爜閲嶆瀯
+- `test/xxx` - 娴嬭瘯鐩稿叧
+- `chore/xxx` - 鏋勫缓/宸ュ叿鐩稿叧
 
-#### 4. 进行修改
+#### 4. 杩涜淇敼
 
-- 遵循 Kotlin 编码规范
-- 添加必要的注释
-- 编写单元测试（如适用）
-- 更新文档（如适用）
-
-#### 5. 运行检查
-
+- 閬靛惊 Kotlin 缂栫爜瑙勮寖
+- 娣诲姞蹇呰鐨勬敞閲?- 缂栧啓鍗曞厓娴嬭瘯锛堝閫傜敤锛?- 鏇存柊鏂囨。锛堝閫傜敤锛?
+#### 5. 杩愯妫€鏌?
 ```bash
-# 代码格式化检查
-./gradlew ktlintCheck
+# 浠ｇ爜鏍煎紡鍖栨鏌?./gradlew ktlintCheck
 
-# 运行测试
+# 杩愯娴嬭瘯
 ./gradlew test
 
-# 编译检查
-./gradlew assembleDebug
+# 缂栬瘧妫€鏌?./gradlew assembleDebug
 ```
 
-#### 6. 提交更改
+#### 6. 鎻愪氦鏇存敼
 
-遵循 [Conventional Commits](https://www.conventionalcommits.org/) 规范：
-
+閬靛惊 [Conventional Commits](https://www.conventionalcommits.org/) 瑙勮寖锛?
 ```bash
 git add .
-git commit -m "feat: 添加照片收藏功能"
+git commit -m "feat: 娣诲姞鐓х墖鏀惰棌鍔熻兘"
 ```
 
-提交信息格式：
-```
+鎻愪氦淇℃伅鏍煎紡锛?```
 <type>(<scope>): <subject>
 
 <body>
@@ -103,46 +87,34 @@ git commit -m "feat: 添加照片收藏功能"
 <footer>
 ```
 
-常用 type：
-- `feat`: 新功能
-- `fix`: Bug 修复
-- `docs`: 文档更新
-- `style`: 代码格式化（不影响代码运行）
-- `refactor`: 代码重构（既不是新功能也不是 Bug 修复）
-- `test`: 添加或修改测试
-- `chore`: 构建过程或辅助工具变动
-
-#### 7. 推送分支
-
+甯哥敤 type锛?- `feat`: 鏂板姛鑳?- `fix`: Bug 淇
+- `docs`: 鏂囨。鏇存柊
+- `style`: 浠ｇ爜鏍煎紡鍖栵紙涓嶅奖鍝嶄唬鐮佽繍琛岋級
+- `refactor`: 浠ｇ爜閲嶆瀯锛堟棦涓嶆槸鏂板姛鑳戒篃涓嶆槸 Bug 淇锛?- `test`: 娣诲姞鎴栦慨鏀规祴璇?- `chore`: 鏋勫缓杩囩▼鎴栬緟鍔╁伐鍏峰彉鍔?
+#### 7. 鎺ㄩ€佸垎鏀?
 ```bash
 git push origin feature/amazing-feature
 ```
 
-#### 8. 创建 Pull Request
+#### 8. 鍒涘缓 Pull Request
 
-1. 在 GitHub 上进入你的 Fork 仓库
-2. 点击 "Compare & pull request"
-3. 填写 PR 描述：
-   - 描述此 PR 的目的
-   - 说明测试方法
-   - 添加相关 Issue 链接（如 `Fixes #123`）
-4. 等待代码审查
+1. 鍦?GitHub 涓婅繘鍏ヤ綘鐨?Fork 浠撳簱
+2. 鐐瑰嚮 "Compare & pull request"
+3. 濉啓 PR 鎻忚堪锛?   - 鎻忚堪姝?PR 鐨勭洰鐨?   - 璇存槑娴嬭瘯鏂规硶
+   - 娣诲姞鐩稿叧 Issue 閾炬帴锛堝 `Fixes #123`锛?4. 绛夊緟浠ｇ爜瀹℃煡
 
-## 开发环境设置
+## 寮€鍙戠幆澧冭缃?
+### 蹇呴渶杞欢
 
-### 必需软件
-
-- Android Studio Hedgehog (2023.1.1) 或更高版本
-- JDK 17 或更高版本
-- Android SDK 34
+- Android Studio Hedgehog (2023.1.1) 鎴栨洿楂樼増鏈?- JDK 17 鎴栨洿楂樼増鏈?- Android SDK 34
 - Git
 
-### 配置步骤
+### 閰嶇疆姝ラ
 
-1. **安装 Android Studio**
-   - 从 [官网](https://developer.android.com/studio) 下载
+1. **瀹夎 Android Studio**
+   - 浠?[瀹樼綉](https://developer.android.com/studio) 涓嬭浇
 
-2. **安装 JDK 17**
+2. **瀹夎 JDK 17**
    ```bash
    # macOS
    brew install openjdk@17
@@ -151,56 +123,51 @@ git push origin feature/amazing-feature
    sudo apt install openjdk-17-jdk
    ```
 
-3. **配置环境变量**
+3. **閰嶇疆鐜鍙橀噺**
    ```bash
    export JAVA_HOME=/path/to/jdk-17
    export ANDROID_HOME=/path/to/Android/sdk
    ```
 
-4. **克隆项目**
+4. **鍏嬮殕椤圭洰**
    ```bash
    git clone https://github.com/YOUR_USERNAME/RandomPhoto.git
    cd RandomPhoto
    ```
 
-5. **打开项目**
-   - 启动 Android Studio
-   - File → Open → 选择项目根目录
+5. **鎵撳紑椤圭洰**
+   - 鍚姩 Android Studio
+   - File 鈫?Open 鈫?閫夋嫨椤圭洰鏍圭洰褰?
+6. **鍚屾 Gradle**
+   - 绛夊緟 Gradle 鑷姩鍚屾瀹屾垚
 
-6. **同步 Gradle**
-   - 等待 Gradle 自动同步完成
+## 浠ｇ爜瀹℃煡娴佺▼
 
-## 代码审查流程
+1. **鑷姩妫€鏌?*
+   - CI 浼氳嚜鍔ㄨ繍琛屼唬鐮佹鏌ュ拰娴嬭瘯
+   - 纭繚鎵€鏈夋鏌ラ€氳繃
 
-1. **自动检查**
-   - CI 会自动运行代码检查和测试
-   - 确保所有检查通过
+2. **浜哄伐瀹℃煡**
+   - 缁存姢鑰呬細瀹℃煡浠ｇ爜璐ㄩ噺
+   - 鍙兘闇€瑕佸杞慨鏀?
+3. **鍚堝苟**
+   - 瀹℃煡閫氳繃鍚庡悎骞跺埌涓诲垎鏀?   - 鍏抽棴鐩稿叧 Issue
 
-2. **人工审查**
-   - 维护者会审查代码质量
-   - 可能需要多轮修改
+## 浠ｇ爜椋庢牸
 
-3. **合并**
-   - 审查通过后合并到主分支
-   - 关闭相关 Issue
+### Kotlin 瑙勮寖
 
-## 代码风格
+閬靛惊 [Kotlin 瀹樻柟缂栫爜瑙勮寖](https://kotlinlang.org/docs/coding-conventions.html)
 
-### Kotlin 规范
+鍏抽敭瑕佺偣锛?- 浣跨敤 4 涓┖鏍肩缉杩?- 绫诲悕浣跨敤 PascalCase
+- 鍑芥暟鍜屽彉閲忎娇鐢?camelCase
+- 甯搁噺浣跨敤 UPPER_SNAKE_CASE
+- 甯冨皵鍊间娇鐢?is/has/can 鍓嶇紑
 
-遵循 [Kotlin 官方编码规范](https://kotlinlang.org/docs/coding-conventions.html)
-
-关键要点：
-- 使用 4 个空格缩进
-- 类名使用 PascalCase
-- 函数和变量使用 camelCase
-- 常量使用 UPPER_SNAKE_CASE
-- 布尔值使用 is/has/can 前缀
-
-### 示例
+### 绀轰緥
 
 ```kotlin
-// ✅ 好的命名
+// 鉁?濂界殑鍛藉悕
 class PhotoRepository {
     private val isFavorite = false
     private val maxPhotoCount = 100
@@ -210,8 +177,7 @@ class PhotoRepository {
     }
 }
 
-// ❌ 不好的命名
-class photo_repository {
+// 鉂?涓嶅ソ鐨勫懡鍚?class photo_repository {
     private val fav = false
     private val MAX_COUNT = 100
     
@@ -221,9 +187,9 @@ class photo_repository {
 }
 ```
 
-## 测试要求
+## 娴嬭瘯瑕佹眰
 
-### 单元测试
+### 鍗曞厓娴嬭瘯
 
 ```kotlin
 class PhotoRepositoryTest {
@@ -242,7 +208,7 @@ class PhotoRepositoryTest {
 }
 ```
 
-### UI 测试
+### UI 娴嬭瘯
 
 ```kotlin
 @RunWith(AndroidJUnit4::class)
@@ -253,42 +219,33 @@ class MainActivityTest {
     
     @Test
     fun mainScreen_displaysRandomPhoto() {
-        // 测试主屏幕显示随机照片
-    }
+        // 娴嬭瘯涓诲睆骞曟樉绀洪殢鏈虹収鐗?    }
 }
 ```
 
-## 文档要求
+## 鏂囨。瑕佹眰
 
-### 代码注释
+### 浠ｇ爜娉ㄩ噴
 
 ```kotlin
 /**
- * 从相册中随机选择一张照片
- *
- * @return 随机照片，如果相册为空则返回 null
- * @throws IllegalStateException 当相册未初始化时抛出
+ * 浠庣浉鍐屼腑闅忔満閫夋嫨涓€寮犵収鐗? *
+ * @return 闅忔満鐓х墖锛屽鏋滅浉鍐屼负绌哄垯杩斿洖 null
+ * @throws IllegalStateException 褰撶浉鍐屾湭鍒濆鍖栨椂鎶涘嚭
  */
 fun getRandomPhoto(): Photo? {
     // ...
 }
 ```
 
-### README 更新
+### README 鏇存柊
 
-如果添加新功能，请更新：
-- README.md 的功能列表
-- USER_GUIDE.md 的使用说明
-- 添加截图（如适用）
-
-## 许可证
-
-通过贡献代码，你同意你的贡献遵循本项目的 [MIT 许可证](LICENSE)。
-
+濡傛灉娣诲姞鏂板姛鑳斤紝璇锋洿鏂帮細
+- README.md 鐨勫姛鑳藉垪琛?- USER_GUIDE.md 鐨勪娇鐢ㄨ鏄?- 娣诲姞鎴浘锛堝閫傜敤锛?
+## 璁稿彲璇?
+閫氳繃璐＄尞浠ｇ爜锛屼綘鍚屾剰浣犵殑璐＄尞閬靛惊鏈」鐩殑 [MIT 璁稿彲璇乚(LICENSE)銆?
 ---
 
-## 🎉 感谢你的贡献！
-
-每一个贡献都让 RandomPhoto 变得更好！🙏
-
-如有任何问题，请随时 [创建 Issue](https://github.com/YOUR_USERNAME/RandomPhoto/issues) 或 [联系维护者](mailto:your.email@example.com)。
+## 馃帀 鎰熻阿浣犵殑璐＄尞锛?
+姣忎竴涓础鐚兘璁?RandomPhoto 鍙樺緱鏇村ソ锛侌煓?
+濡傛湁浠讳綍闂锛岃闅忔椂 [鍒涘缓 Issue](https://github.com/YOUR_USERNAME/RandomPhoto/issues) 鎴?[鑱旂郴缁存姢鑰匽(mailto:your.email@example.com)銆?
