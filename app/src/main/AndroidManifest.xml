@@ -16,6 +16,9 @@
     
     <!-- Android 13+ 删除媒体文件权限 -->
     <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    
+    <!-- 通知权限 -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
         android:allowBackup="true"
@@ -28,12 +31,19 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
+            android:launchMode="singleTop"
             android:theme="@style/Theme.RandomPhotoApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <!-- 回收站请求 Activity（透明）- 保留兼容 -->
+        <activity
+            android:name=".widget.TrashRequestActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         
         <!-- FileProvider for sharing photos -->
         <provider
@@ -45,6 +55,23 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+        
+        <!-- 桌面大组件 (4x3) -->
+        <receiver
+            android:name=".widget.RandomPhotoWidgetProvider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.randomphoto.SHOW_RANDOM_PHOTO" />
+                <action android:name="com.randomphoto.DELETE_PHOTO" />
+                <action android:name="com.randomphoto.OPEN_APP" />
+                <action android:name="com.randomphoto.HIDE_PHOTO" />
+                <action android:name="com.randomphoto.OPEN_RECYCLE_BIN" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_random_photo_large" />
+        </receiver>
         
     </application>
 

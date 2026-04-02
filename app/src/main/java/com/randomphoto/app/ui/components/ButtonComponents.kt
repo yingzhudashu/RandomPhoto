@@ -1,6 +1,7 @@
 package com.randomphoto.app.ui.components
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
@@ -17,7 +18,7 @@ import androidx.compose.ui.unit.dp
 /**
  * 底部操作按钮组件
  * @param onNextClick 下一张照片点击事件
- * @param onDeleteClick 删除照片点击事件
+ * @param onDeleteClick 删除照片点击事件（移到回收站）
  * @param canDelete 是否可以删除（有照片时）
  * @param modifier 修饰符
  */
@@ -55,7 +56,7 @@ fun ActionButtons(
             )
         }
         
-        // 删除按钮
+        // 删除按钮（移到回收站）
         OutlinedButton(
             onClick = onDeleteClick,
             enabled = canDelete,
@@ -84,18 +85,14 @@ fun ActionButtons(
 }
 
 /**
- * 删除确认对话框
- * @param onDismissRequest 取消点击事件
- * @param onConfirm 确认删除事件
- * @param title 对话框标题
- * @param message 对话框消息
+ * 删除确认对话框（移到回收站）
  */
 @Composable
 fun DeleteConfirmationDialog(
     onDismissRequest: () -> Unit,
     onConfirm: () -> Unit,
-    title: String = "确认删除",
-    message: String = "确定要删除这张照片吗？此操作不可恢复。"
+    title: String = "移到回收站",
+    message: String = "照片将移到回收站，30 天后自动永久删除。\n你可以随时从回收站恢复。"
 ) {
     AlertDialog(
         onDismissRequest = onDismissRequest,

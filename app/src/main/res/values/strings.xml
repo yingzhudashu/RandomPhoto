@@ -13,4 +13,10 @@
     <string name="loading">加载中…</string>
     <string name="delete_success">照片已删除</string>
     <string name="delete_failed">删除失败</string>
+    <string name="widget_description">随机照片小组件 - 点击随机展示照片</string>
+    <string name="widget_description_large">随机照片大组件 (4×3) - 显示照片并支持操作</string>
+    <string name="widget_random_show">随机展示</string>
+    <string name="widget_click_to_show">点击加载照片</string>
+    <string name="widget_photo_displayed">已展示随机照片</string>
+    <string name="widget_no_photos">未找到照片</string>
 </resources>

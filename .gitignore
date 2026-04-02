@@ -91,3 +91,6 @@ fastlane/readme.md
 *.pem
 *.crt
 .env
+
+# App build directory
+app/build/
